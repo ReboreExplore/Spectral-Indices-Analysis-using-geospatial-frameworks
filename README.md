@@ -36,8 +36,8 @@ Several *Unit Test* scripts are also available for future experiments. All the u
 This will also serve as a guide for people who are just getting started working with earth engine and geemap and want to understand and explore this work. This code snippets are tests done before compiling the final workflow.
 
 
-1. Downloading a range of images (by date)
-2. Clipping the Image Collection to the shapefile
+1. [Downloading a range of images (by date)](unit-tests-notebooks/downloading-a-range-of-images-by-date.ipynb)
+2. [Clipping the Image Collection to the shapefile](unit-tests-notebooks/clipping-an-image-collection-to-the-shapefile.ipynb)
 3. Download 2001 data season wise
 4. Check the seasonal and annual mean image 
 5. Check NDVI index in the year 2001
