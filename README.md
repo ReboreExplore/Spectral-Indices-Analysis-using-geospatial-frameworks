@@ -42,3 +42,13 @@ This will also serve as a guide for people who are just getting started working 
 4. Check the seasonal and annual mean image 
 5. Check NDVI index in the year 2001
 6. Download a computed image in a self set palette
+7. [Converting a GEOtiff file to a labelled map in any format](unit-tests-notebooks/converting-a-GEOtiff-file-to-a-labelled-map-in-any-format.ipynb)
+
+
+### Final Executable Scripts
+
+For now notebooks are created for interactive visualization.
+
+1. Run the [custom-parameter-initialization](final_scripts/custom-parameter-initialization.ipynb) notebook. Here the name of the target districts, years of computation, etc can be custom initialized.
+2. Run the [ndvi-computation-and-GEOtiff-file-create](final_scripts/ndvi-computation-and-GEOtiff-file-create.ipynb) notebook,which will compute the specified spectral indices (ndvi in this case) and generate GEOtiff files for the same.
+3. Run the final notebook, [converting-a-GEOtiff-file-to-a-labelled-map-in-any-format](final_scripts/converting-a-GEOtiff-file-to-a-labelled-map-in-any-format.ipynb), which will generate maps for a given GEOTiff file.
