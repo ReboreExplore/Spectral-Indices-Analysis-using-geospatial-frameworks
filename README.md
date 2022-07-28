@@ -36,12 +36,12 @@ Several *Unit Test* scripts are also available for future experiments. All the u
 This will also serve as a guide for people who are just getting started working with earth engine and geemap and want to understand and explore this work. This code snippets are tests done before compiling the final workflow.
 
 
-1. [Downloading a range of images (by date)](unit-tests-notebooks/downloading-a-range-of-images-by-date.ipynb)
-2. [Clipping the Image Collection to the shapefile](unit-tests-notebooks/clipping-an-image-collection-to-the-shapefile.ipynb)
-3. Download 2001 data season wise
-4. Check the seasonal and annual mean image 
-5. Check NDVI index in the year 2001
-6. Download a computed image in a self set palette
+1. [Downloading a range of images (by date)](unit-tests-notebooks/downloading-a-range-of-images-by-date.ipynb).
+2. [Clipping the Image Collection to the shapefile](unit-tests-notebooks/clipping-an-image-collection-to-the-shapefile.ipynb).
+3. [Download 2001 data season wise](unit_tests_notebooks/download-seasonwise-data-for-a-year.ipynb).
+4. [Check the mean image of a image collection](unit_tests_notebooks/mean-image-for-a-image-collection.ipynb)
+5. [Check NDVI index compute for any time interval](unit-tests-notebooks/ndvi-index-compute-for-a-year.ipynb)
+6. [Download a computed image in a self set palette](unit-tests-notebooks/download-in-a-self-set-palette.ipynb)
 7. [Converting a GEOtiff file to a labelled map in any format](unit-tests-notebooks/converting-a-GEOtiff-file-to-a-labelled-map-in-any-format.ipynb)
 
 
@@ -84,3 +84,13 @@ The project is currently prepared as a series of .ipynb notebooks, which needs t
 
 - **Output** : Generates jpg maps for each GEOtiff files specified and stores it in our local machine folderwise.
 
+
+
+## TODO 
+1. Kendell's Correlation and Analysis in python.
+2. Add contents to the Various spectral indices section.
+3. Create timelapse (gifs) of the changes to embed in the github repository.
+4. Matplotlib subplots - update the visualization notebook.
+5. Create a local project workflow.
+6. Complete the library installation section.
+7. Create the final ppt/poster (if paper gets approved). 
