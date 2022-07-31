@@ -91,6 +91,6 @@ The project is currently prepared as a series of .ipynb notebooks, which needs t
 2. Add contents to the Various spectral indices section.
 3. Create timelapse (gifs) of the changes to embed in the github repository.
 4. Matplotlib subplots - update the visualization notebook.
-5. Create a local project workflow.
-6. Complete the library installation section.
+5. Create a local project workflow.- MANPA
+6. Complete the library installation section.- MANPA
 7. Create the final ppt/poster (if paper gets approved). 
