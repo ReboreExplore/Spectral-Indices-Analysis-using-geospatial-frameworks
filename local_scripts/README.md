@@ -1,1 +1,1 @@
-In order to run the local scripts, the followinf steps needs to b followed.
+In order to run the local scripts, the following steps needs to b followed.
