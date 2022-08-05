@@ -61,7 +61,7 @@ This will also serve as a guide for people who are just getting started working 
 This project has two workflows:
 1. It prepared as a series of .ipynb notebooks, which needs to executed in the sequence described below.
 
-    **[Script 1 - Custom Parameter Initialization](final_scripts/custom-parameter-initialization.ipynb)**
+    **[Script 1 - Custom Parameter Initialization](notebook_scripts/custom-parameter-initialization.ipynb)**
 
 
     1. Take custom input from users i.e. target years, target spectral indices[TODO], target districts. 
@@ -69,7 +69,7 @@ This project has two workflows:
     3. You can find the district name list here. [TODO]- prepare the name list
     4. Dataset for shapefiles - [FAO GAUL 500m](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level2#table-schema) 
 
-    **[Script 2 -Create custom Spectral Index Computation and generate GEOtiff files](final_scripts/ndvi-computation-and-GEOtiff-file-create.ipynb)**
+    **[Script 2 -Create custom Spectral Index Computation and generate GEOtiff files](notebook_scripts/ndvi-computation-and-GEOtiff-file-create.ipynb)**
     1. Get the custom inputs from the previous script.
     2.	Use satellite archive (Landsat 7) dataset for the defined geometry (specific city shapefile we obtained from the previous script). 
     3.	Loop over the shapefiles of the target cities (main function) for the ndvi computation.
@@ -83,13 +83,13 @@ This project has two workflows:
     - **Frameworks Used** : geemap and GEE Python API
 
 
-    **[Script 3 - Download from Google Drive to the local machine](final_scripts/download_script_github.ipynb)**
+    **[Script 3 - Download from Google Drive to the local machine](notebook_scripts/download_script_github.ipynb)**
     1.	Download the google drive files in proper custom folder sequence in your local machine. (It requires the user to store google drive credentials which is not safe to publish or share, hence this downloading script.)
     2. You will be required to do a Google Services API OAuth Authentication to authenticate your drive. Link for the same is given in the notebook.
 
     - **Output** = Downloads the required files from google drive in local folder in a specified folder system.
 
-    **[Script 4 - Create visualization maps in jpeg format from the given GEOtiff files](final_scripts/automating-map-generation-from-tiff-files.ipynb)**      
+    **[Script 4 - Create visualization maps in jpeg format from the given GEOtiff files](notebook_scripts/automating-map-generation-from-tiff-files.ipynb)**      
     [PARTIALLY DONE]
     1.	Create maps using rasterio and matplotlib (with proper legends and markings).
     2.	Download the maps in jpg in city wise folder.
