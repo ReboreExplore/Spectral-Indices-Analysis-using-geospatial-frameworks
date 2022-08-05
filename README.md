@@ -109,3 +109,4 @@ This project has two workflows:
     6. Complete the library installation section.- MANPA - done
     7. Add the local project workflow readme - MANPA - done
     8. Create the final ppt/poster (if paper gets approved)
+    9. Naming convention of files and folders downloaded.- MANPA
