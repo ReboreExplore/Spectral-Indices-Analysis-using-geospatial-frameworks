@@ -96,7 +96,14 @@ This project has two workflows:
 
     - **Output** : Generates jpg maps for each GEOtiff files specified and stores it in our local machine folderwise.
 
-    ![Sample Map](sample_images/sample_map.jpeg)
+    ![Sample Map](assets/sample_map.jpeg)
+
+    **[Script 5 - Create shapefiles locally from local coordinate information](final_scripts/getting_the_shapefiles.ipynb)**  
+    1. Take coordinate information for 166 Indian cities and generate a polygonal shapefile with fixed size.
+    2. Save the save files in the local machine city wise.
+
+    - **Output** : Generates polygonal shapefile folders for each centre coordinate information specified and store it in our local machine folderwise.
+
 
 2. This project also has a local python script based workflow for you to run the code locally. You can refer to [local scripts](local_scripts/README.md) for the required setup. The design and working of the code are similar to the notebook pipeline and can be referred from the previous explanation for the notebook files.
 
@@ -109,4 +116,4 @@ This project has two workflows:
     6. Complete the library installation section.- MANPA - done
     7. Add the local project workflow readme - MANPA - done
     8. Create the final ppt/poster (if paper gets approved)
-    9. Naming convention of files and folders downloaded.- MANPA
+    9. Create local shapefiles -  MANPA - done
