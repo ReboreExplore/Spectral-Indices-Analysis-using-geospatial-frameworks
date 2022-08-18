@@ -98,7 +98,7 @@ This project has two workflows:
 
     ![Sample Map](assets/sample_map.jpeg)
 
-    **[Script 5 - Create shapefiles locally from local coordinate information](final_scripts/getting_the_shapefiles.ipynb)**  
+    **[Script 5 - Create shapefiles locally from local coordinate information](final_scripts/getting-the-shapefiles.ipynb)**  
     1. Take coordinate information for 166 Indian cities and generate a polygonal shapefile with fixed size.
     2. Save the save files in the local machine city wise.
 
