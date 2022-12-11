@@ -70,6 +70,7 @@ This project has two workflows:
     3. You can find the _city name list_ for the FAU GAUL 500m dataset [here](notebook_scripts/Get%20the%20FAO%20GAUL%20city%20names.ipynb.)
     4. Dataset for shapefiles - [FAO GAUL 500m](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level2#table-schema) 
     5. You can also use a local shapefiles instead of the online dataset. The code for including local shape files in the project can be found by uncommenting the `local_shp()` in [this](notebook_scripts/custom-parameter-initialization.ipynb) notebook.
+    6. A script is also created to extract polygon shapefiles given the latitude and longitude data of a region. You can find the example notebook [here](notebook_scripts/getting-the-shapefiles.ipynb). 
 
     **[Script 2 -Create custom Spectral Index Computation and generate GEOtiff files](notebook_scripts/ndvi-computation-and-GEOtiff-file-create.ipynb)**
     1. Get the custom inputs from the previous script.
