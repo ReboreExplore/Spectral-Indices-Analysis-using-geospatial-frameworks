@@ -5,17 +5,18 @@ This repository contains some python scripts using geemap and earth engine api f
 ## Various Spectral Indices 
 We have implemented the following indices and included the code snippets for the following:
 
-NDVI
+__NDVI__
 
-** A short laymen description about NVDI.. Add proper links and goto materials [TODO]
+NDVI or Normalized Difference Vegetation Index determines the normalized difference between near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs). The value ranges from -1 to 1. When the value is _negative_, it is highly likely that it is water. If the value is close to _zero_, it might be an urbanized area or an area with no green leaves. If the value is _positive_, then it has a possibility of dense green leaves.
 
-NDBI
 
-** A short laymen description about NDWI [TODO]
+__NDBI__
 
-MNDWI
+NDBI or Normalized Built-up Index determines the normalized difference between the short wave infrared light and near-infrared light. The value ranges from -1 to 1. Negative NDBI vales represent water bodies and higher values represent built-up areas.
 
-** A short laymen description about MNDWI [TODO]
+__MNDWI__
+
+MNDWI or Modified Normalized Difference Water Index determines normalized difference between the green and the short wave infrared light to enhance the open water features. The value ranges from -1 to 1, where the negative values indicates no vegetation or water content and the positive values indicates water content.
 
 ## Library Installations
 
@@ -107,13 +108,6 @@ This project has two workflows:
 
 2. This project also has a local python script based workflow for you to run the code locally. You can refer to [local scripts](local_scripts/README.md) for the required setup. The design and working of the code are similar to the notebook pipeline and can be referred from the previous explanation for the notebook files.
 
- ## TODO 
-    1. Kendell's Correlation and Analysis in python.
-    2. Add contents to the Various spectral indices section.
-    3. Create timelapse (gifs) of the changes to embed in the github repository.
-    4. Matplotlib subplots - update the visualization notebook.
-    5. Create a local project workflow.- MANPA - done 80%
-    6. Complete the library installation section.- MANPA - done
-    7. Add the local project workflow readme - MANPA - done
-    8. Create the final ppt/poster (if paper gets approved)
-    9. Create local shapefiles -  MANPA - done
+
+
+
