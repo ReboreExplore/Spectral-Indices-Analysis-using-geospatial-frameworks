@@ -65,15 +65,16 @@ This project has two workflows:
     **[Script 1 - Custom Parameter Initialization](notebook_scripts/custom-parameter-initialization.ipynb)**
 
 
-    1. Take custom input from users i.e. target years, target spectral indices[TODO], target districts. 
+    1. Take custom input from users i.e. target years, target spectral indices[TODO], target cities. 
     2. Get the shapefiles for each target city and put it in a hash table for mapping.
-    3. You can find the district name list here. [TODO]- prepare the name list
+    3. You can find the _city name list_ for the FAU GAUL 500m dataset [here](notebook_scripts/Get%20the%20FAO%20GAUL%20city%20names.ipynb.)
     4. Dataset for shapefiles - [FAO GAUL 500m](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level2#table-schema) 
+    5. You can also use a local shapefiles instead of the online dataset. The code for including local shape files in the project can be found by uncommenting the `local_shp()` in [this](notebook_scripts/custom-parameter-initialization.ipynb) notebook.
 
     **[Script 2 -Create custom Spectral Index Computation and generate GEOtiff files](notebook_scripts/ndvi-computation-and-GEOtiff-file-create.ipynb)**
     1. Get the custom inputs from the previous script.
     2.	Use satellite archive (Landsat 7) dataset for the defined geometry (specific city shapefile we obtained from the previous script). 
-    3.	Loop over the shapefiles of the target cities (main function) for the ndvi computation.
+    3.	Loop over the shapefiles of the target cities (main function) for the spectral index computation.
     4.	Get the filtered the data ( four seasons + one annual interval) specifying the date figures for a particular interval. This inverval dates will be fixed for the all the target years of study.
     5.  Get the seasonal mean and the annual mean image for a year. Thus, each year will have four resultant images. We have considered four seasons in a year.
     6. Calculate the spectral indices per year for each intervals.
