@@ -7,20 +7,20 @@ This repository contains some python scripts using geemap and earth engine api f
 ## Various Spectral Indices 
 We have implemented the following indices and included the code snippets for the following:
 
-__NDVI__
+__NDVI__ 🌲🌲
 
 NDVI or Normalized Difference Vegetation Index determines the normalized difference between near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs). The value ranges from -1 to 1. When the value is _negative_, it is highly likely that it is water. If the value is close to _zero_, it might be an urbanized area or an area with no green leaves. If the value is _positive_, then it has a possibility of dense green leaves.
 
 
-__NDBI__
+__NDBI__ 🏢🏢
 
 NDBI or Normalized Built-up Index determines the normalized difference between the short wave infrared light and near-infrared light. The value ranges from -1 to 1. Negative NDBI vales represent water bodies and higher values represent built-up areas.
 
-__MNDWI__
+__MNDWI__ 🌊🌊
 
 MNDWI or Modified Normalized Difference Water Index determines normalized difference between the green and the short wave infrared light to enhance the open water features. The value ranges from -1 to 1, where the negative values indicates no vegetation or water content and the positive values indicates water content.
 
-## Library Installations
+## Library Installations 👩‍💻
 
 1. Sign up in the [Google Earth Engine](https://earthengine.google.com/).
 2. It is always advised to create a conda environment to install all the earth engine related dependencies. Hence install [Anaconda](https://www.anaconda.com/products/distribution#download-section) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)  on your computer.
@@ -42,7 +42,7 @@ pip install rasterio
 
 6. You are good to go. Now you can execute aall the code in the current repository.
 
-## Example Unit Tests
+## Example Unit Tests 📚
 *A beginners guide*
 
 Several *Unit Test* scripts are also available for future experiments. All the unit tests are provided in the notebook (.ipynb) format and can be directly executed at the users end using jupyter notebook.
@@ -59,7 +59,7 @@ This will also serve as a guide for people who are just getting started working 
 7. [Converting a GEOtiff file to a labelled map in any format](unit-tests-notebooks/converting-a-GEOtiff-file-to-a-labelled-map-in-any-format.ipynb)
 
 
-## Workflow of the project
+## Workflow of the project 🔄
 
 This project has two workflows:
 1. It prepared as a series of .ipynb notebooks, which needs to executed in the sequence described below.
