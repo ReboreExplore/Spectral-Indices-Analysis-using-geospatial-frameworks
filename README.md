@@ -1,8 +1,7 @@
 # Spectral Indices Analysis using geospatial frameworks
 
-This repository contains some python scripts using geemap and earth engine api for analysis of various spectral indices over a given time frame.
-
-<img src="assets/intro-gif.gif" width="750"/>
+This repository contains the automation pipeline for analysis of various spectral indices over a given time frame using geemap and earth engine api. 
+<img src="assets/intro-gif.gif" width="700"/>
 
 ## Various Spectral Indices 
 We have implemented the following indices and included the code snippets for the following:
@@ -72,7 +71,7 @@ This project has two workflows:
     3. You can find the _city name list_ for the FAU GAUL 500m dataset [here](notebook_scripts/Get%20the%20FAO%20GAUL%20city%20names.ipynb.)
     4. Dataset for shapefiles - [FAO GAUL 500m](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level2#table-schema) 
     5. You can also use a local shapefiles instead of the online dataset. The code for including local shape files in the project can be found by uncommenting the `local_shp()` in [this](notebook_scripts/custom-parameter-initialization.ipynb) notebook.
-    6. A script is also created to extract polygon shapefiles given the latitude and longitude data of a region. You can find the example notebook [here](notebook_scripts/getting-the-shapefiles.ipynb). 
+    6. A script is also created to extract polygon shapefiles given the latitude and longitude data of a region. You can find the example notebook [here](notebook_scripts/getting-the-shapefiles.ipynb). You can also refer to Script 5 of this section.
 
     **[Script 2 -Create custom Spectral Index Computation and generate GEOtiff files](notebook_scripts/ndvi-computation-and-GEOtiff-file-create.ipynb)**
     1. Get the custom inputs from the previous script.
@@ -95,7 +94,6 @@ This project has two workflows:
     - **Output** = Downloads the required files from google drive in local folder in a specified folder system.
 
     **[Script 4 - Create visualization maps in jpeg format from the given GEOtiff files](notebook_scripts/automating-map-generation-from-tiff-files.ipynb)**      
-    [PARTIALLY DONE]
     1.	Create maps using rasterio and matplotlib (with proper legends and markings).
     2.	Download the maps in jpg in city wise folder.
 
@@ -103,7 +101,7 @@ This project has two workflows:
 
     ![Sample Map](assets/sample_map.jpeg)
 
-    **[Script 5 - Create shapefiles locally from local coordinate information](final_scripts/getting-the-shapefiles.ipynb)**  
+    **[Script 5 - Create shapefiles locally from local coordinate information](notebook_scripts/getting-the-shapefiles.ipynb)**  
     1. Take coordinate information for 166 Indian cities and generate a polygonal shapefile with fixed size.
     2. Save the save files in the local machine city wise.
 
