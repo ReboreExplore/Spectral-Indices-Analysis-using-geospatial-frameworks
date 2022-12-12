@@ -2,7 +2,7 @@
 
 This repository contains some python scripts using geemap and earth engine api for analysis of various spectral indices over a given time frame.
 
-<img src="assets/intro-gif.gif" width="520"/>
+<img src="assets/intro-gif.gif" width="750"/>
 
 ## Various Spectral Indices 
 We have implemented the following indices and included the code snippets for the following:
